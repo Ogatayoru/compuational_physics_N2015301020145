@@ -1,2 +1,3 @@
-# compuational_physics_N2015301020145
-计算物理课程
+# Homework list
+***
+- [ ] [Exercise_02:print your English name on the screan](https://baike.baidu.com/item/秋叶原/1341650?fr=aladdin)
