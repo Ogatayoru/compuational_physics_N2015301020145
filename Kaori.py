@@ -32,7 +32,6 @@ while True:
     x += speed_x * time_passed_seconds
     y += speed_y * time_passed_seconds    
  
-    # 到达边界则把速度反向
     if x > 640 - sprite.get_width():
         speed_x = -speed_x
         x = 640 - sprite.get_width()
