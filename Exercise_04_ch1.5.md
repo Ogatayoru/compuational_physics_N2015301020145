@@ -11,3 +11,29 @@ Employ the Euler method to compute the solution to exercise 1.5 of Chapter one. 
 ![](http://latex.codecogs.com/gif.latex?\frac{dN_{B}}{dt}=\frac{N_{A}}{\tau}-\frac{N_{B}}{\tau}),
 
 - Compute the solution to the function relation between ![](http://latex.codecogs.com/gif.latex?N_A$) and ![](http://latex.codecogs.com/gif.latex?N_B$) in the case that the initial values and various parameters are both defined.
+## The main body
+- Substitute the differential with the difference:
+
+![](http://latex.codecogs.com/gif.latex?\frac{N_{A}(i+1)-N_{A}(i)}{dt}=\frac{N_{B}(i)}{\tau}-\frac{N_{A}(i)}{\tau}),
+
+![](http://latex.codecogs.com/gif.latex?\frac{N_{B}(i+1)-N_{B}(i)}{dt}=\frac{N_{A}(i)}{\tau}-\frac{N_{B}(i)}{\tau}),
+
+- Iteration:
+
+![](http://latex.codecogs.com/gif.latex?N_{A}(i+1)=N_{A}(i)+\frac{dt}{\tau}\left(N_{B}(i)-N_{A}(i)\right)),
+
+![](http://latex.codecogs.com/gif.latex?N_{B}(i+1)=N_{B}(i)+\frac{dt}{\tau}\left(N_{A}(i)-N_{B}(i)\right)),
+
+As long as the time step is selected narrowly enough, the result will actually gets close to that of the exact solution as possible as we expected.Here I give [the source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/source_code_01) of the program that employs the Euler method to compute the solution of the exercise 1.5.  
+
+- Print the initial values and parameters:
+
+![](http://latex.codecogs.com/gif.latex?N_{A}(0)=100),
+
+![](http://latex.codecogs.com/gif.latex?N_{B}(0)=0),
+
+![](http://latex.codecogs.com/gif.latex?\tau=1s),
+
+![](http://latex.codecogs.com/gif.latex?dt=0.1s)
+
+- The output:
