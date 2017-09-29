@@ -37,4 +37,23 @@ As long as the time step is selected narrowly enough, the result will actually g
 ![](http://latex.codecogs.com/gif.latex?dt=0.1s)
 
 - The output:
-The following chart presents the resulet,
+The following chart presents the results, in which the dotted lines show the output of numerical solution in comparison with the exact analytic solution, which is described with the solid line.
+
+![chapter1](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/chapter1.png)
+
+Here is [the relevant data](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_01).
+
+- Analysis
+the exact analytic solution:
+
+![](http://latex.codecogs.com/gif.latex?N_{A}(t)=\frac{1}{2}\left(N_{A}(0)+N_{B}(0)+\left(N_{A}(0)-N_{B}(0)\right)e^{-\frac{2t}{\tau}}\right)),
+
+![](http://latex.codecogs.com/gif.latex?N_{B}(t)=\frac{1}{2}\left(N_{A}(0)+N_{B}(0)-\left(N_{A}(0)-N_{B}(0)\right)e^{-\frac{2t}{\tau}}\right)),
+
+So we compare the exact solution with the numerical results, and it's easy to figure out the accuracy of numerical results.
+From the chart, we can see, the numerical results do not actually fit perfectly the exact solution.
+
+## Conclusion
+Employing Euler method can handle the differtial equations to some degree.
+## acknowledgement
+Thanks for the source code from seniors.
