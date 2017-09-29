@@ -24,7 +24,7 @@ Employ the Euler method to compute the solution to exercise 1.5 of Chapter one. 
 
 ![](http://latex.codecogs.com/gif.latex?N_{B}(i+1)=N_{B}(i)+\frac{dt}{\tau}\left(N_{A}(i)-N_{B}(i)\right)),
 
-As long as the time step is selected narrowly enough, the result will actually gets close to that of the exact solution as possible as we expected.Here I give [the source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/source_code_01) of the program that employs the Euler method to compute the solution of the exercise 1.5.  
+As long as the time step is selected narrowly enough, the result will actually gets close to that of the exact solution as possible as we expected. Here I give [the source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/source_code_01) of the program that employs the Euler method to compute the solution of the exercise 1.5.  
 
 - Print the initial values and parameters:
 
@@ -37,3 +37,4 @@ As long as the time step is selected narrowly enough, the result will actually g
 ![](http://latex.codecogs.com/gif.latex?dt=0.1s)
 
 - The output:
+The following chart presents the resulet,
