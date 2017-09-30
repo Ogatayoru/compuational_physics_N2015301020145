@@ -55,5 +55,5 @@ From the chart, we can see, the numerical results do not actually fit perfectly 
 
 ## Conclusion
 Employing Euler method can handle the differtial equations to some degree.
-## acknowledgement
+## Acknowledgement
 Thanks for the source code from seniors.
