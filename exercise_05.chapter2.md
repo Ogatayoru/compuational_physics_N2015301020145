@@ -66,5 +66,4 @@ For this case, we employ numerical approach to calculate the flight path of the 
      
 - So
      
-     ![](http://latex.codecogs.com/gif.latex?v_{x,i+1}=v_{x,i}-(1-\frac{ay_{i}}{T_{0}})^{\alpha}\frac{B_{2}vv_{x,i}}{m}\Delta{t})
-     
+     
