@@ -38,6 +38,14 @@ For this case, we employ numerical approach to calculate the flight path of the 
 - Thus
      
      ![](http://latex.codecogs.com/gif.latex?v_{x,i+1}=v_{x,i}-\frac{B_{2}vv_{x,i}}{m}\Delta{t})
+     
+     ![](http://latex.codecogs.com/gif.latex?v_{y,i+1}=v_{y,i}-\frac{B_{2}vv_{y,i}+mg}{m}\Delta{t})
+     
+     with the recurrence relation, we can calculate punchs of velocities at different moment after the launch of cannon shell.Then we're also capable of giving the recurrence relation of displacement:
+     
+     ![](http://latex.codecogs.com/gif.latex?x_{i+1}=x_{i}+v_{x,i}\Delta{t})
+     
+     ![](http://latex.codecogs.com/gif.latex?y_{i+1}=y_{i}+v_{y,i}\Delta{t})
  
       
      
