@@ -61,3 +61,10 @@ For this case, we employ numerical approach to calculate the flight path of the 
 - As for the effects of wind resistence, the air density alters along with the change of heights of cannon shell, as the result of which the alterations of wind resistence occurs. About the air density,we take:
 
      ![](http://latex.codecogs.com/gif.latex?\rho=\rho_{0}(1-\frac{ah}{T_{0}})^\alpha)
+      
+     ![](http://latex.codecogs.com/gif.latex?a\approx6.5\times10^{-3},\alpha\approx2.5)
+     
+- So
+     
+     ![](http://latex.codecogs.com/gif.latex?v_{x,i+1}=v_{x,i}-(1-\frac{ay_{i}}{T_{0})^{\alpha}\frac{B_{2}vv_{x,i}}{m}\Delta{t})
+     
