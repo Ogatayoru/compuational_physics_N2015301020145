@@ -53,5 +53,8 @@ For this case, we employ numerical approach to calculate the flight path of the 
  
      ![](http://latex.codecogs.com/gif.latex?g=G\frac{M_{earth}}{(R_{earth}+h)^2})
  
-     in which, ![](http://latex.codecogs.com/gif.latex?R_{earth}) is the earth radius, h is the altitude.
+     in which, ![](http://latex.codecogs.com/gif.latex?R_{earth}) is the earth radius, h is the altitude. The gravitational acceration near the earth surface ![](http://latex.codecogs.com/gif.latex?g_{0}=9.8m/s^2),the earth radius we take is 6400km.
+- Then at any altitude, we can caculate the gravitational acceleration:
+     
+     ![](http://latex.codecogs.com/gif.latex?g_{h}=\frac{6400000^2}{(6400000+h)^2}g_{0})
      
