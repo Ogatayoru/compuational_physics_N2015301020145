@@ -26,5 +26,7 @@ For this case, we employ numerical approach to calculate the flight path of the 
 - Using Taylor's expansion on ![](http://latex.codecogs.com/gif.latex?v_{x}(t)) and ![](http://latex.codecogs.com/gif.latex?v_{y}(t))：
  
      ![](http://latex.codecogs.com/gif.latex?v_{x}(t+\Delta{t})=v_{x}(t)+\frac{dv_{x}}{dt}\Delta{t})
+     
+     ![](http://latex.codecogs.com/gif.latex?v_{y}(t+\Delta{t})=v_{y}(t)+\frac{dv_{y}}{dt}\Delta{t})
       
      
