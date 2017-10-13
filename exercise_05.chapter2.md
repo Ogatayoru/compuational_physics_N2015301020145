@@ -53,5 +53,5 @@ For this case, we employ numerical approach to calculate the flight path of the 
  
      ![](http://latex.codecogs.com/gif.latex?g=G\frac{M_{earth}}{(R_{earth}+h)^2})
  
-      
-     
+     in which, ![](http://latex.codecogs.com/gif.latex?R_{earth}) is the earth radius, h is the altitude.
+     
