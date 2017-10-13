@@ -57,4 +57,7 @@ For this case, we employ numerical approach to calculate the flight path of the 
 - Then at any altitude, we can caculate the gravitational acceleration:
      
      ![](http://latex.codecogs.com/gif.latex?g_{h}=\frac{6400000^2}{(6400000+h)^2}g_{0})
-     
+     
+- As for the effects of wind resistence, the air density alters along with the change of heights of cannon shell, as the result of which the alterations of wind resistence occurs. About the air density,we take:
+
+     ![](http://latex.codecogs.com/gif.latex?\rho=\rho_{0}(1-\frac{ah}{T_{0}})^\alpha)
