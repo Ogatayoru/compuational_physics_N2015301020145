@@ -65,5 +65,8 @@ For this case, we employ numerical approach to calculate the flight path of the 
      ![](http://latex.codecogs.com/gif.latex?a\approx6.5\times10^{-3},\alpha\approx2.5)
      
 - So
+
+     ![](http://latex.codecogs.com/gif.latex?v_{x,i+1}=v_{x,i}-(1-\frac{ay_{i}}{T_{0}})^{\alpha}\frac{B_{2}vv_{x,i}}{m}\Delta{t})
      
-     
+     ![](http://latex.codecogs.com/gif.latex?v_{y,i+1}=v_{y,i}-\frac{B_{2}(1-\frac{ay_{i}}{T_{0}})^{\alpha}vv_{y,i}+mg_{0}\frac{6400000^2}{(6400000+y_{i})^2}}{m}\Delta{t})
+   
