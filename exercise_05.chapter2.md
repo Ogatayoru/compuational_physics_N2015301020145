@@ -69,4 +69,12 @@ For this case, we employ numerical approach to calculate the flight path of the 
      ![](http://latex.codecogs.com/gif.latex?v_{x,i+1}=v_{x,i}-(1-\frac{ay_{i}}{T_{0}})^{\alpha}\frac{B_{2}vv_{x,i}}{m}\Delta{t})
      
      ![](http://latex.codecogs.com/gif.latex?v_{y,i+1}=v_{y,i}-\frac{B_{2}(1-\frac{ay_{i}}{T_{0}})^{\alpha}vv_{y,i}+mg_{0}\frac{6400000^2}{(6400000+y_{i})^2}}{m}\Delta{t})
-   
+     
+## Conclusion 
+- Here you can find the [source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise05_resource_code.py).
+- The following chart is the result after the code runs.![chart](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pacture05.png)
+## Analysis
+- The approach ignores the effect occured by Coriolis force， which is engendered from the earth rotation.
+- Applying this program, it's acessed to the perfect angle which guarantees the longest range of cannon shell.
+## Acknowledgement
+Thanks for the source code from the seniors.
