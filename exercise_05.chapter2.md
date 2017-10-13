@@ -35,5 +35,9 @@ For this case, we employ numerical approach to calculate the flight path of the 
      ![](http://latex.codecogs.com/gif.latex?v_{y}(t+\Delta{t})=v_{y}(t)-\frac{B_{2}vv_{y}+mg}{m}\Delta{t})
      
      among which, ![](http://latex.codecogs.com/gif.latex?v=\left({v_{x}}^2+{v_{y}}^2\right)^{1/2})
+- Thus
+     
+     ![](http://latex.codecogs.com/gif.latex?v_{x,i+1}=v_{x,i}-\frac{B_{2}vv_{x,i}}{m}\Delta{t})
+ 
       
      
