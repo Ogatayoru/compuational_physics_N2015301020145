@@ -1,7 +1,7 @@
 ## Abstract
 By means of numerical model, we can trace the baseball limited by some specific initial conditions. Here we take the baseball for instance, yet the actual result is not just confined to the baseball.
 ## Background
-The baseball would get an initial velocity in the assumption that we throw it away, at which it's forced to spin backwards at the same time. Then its rotation brings an initial palstance `$\omega_0$`. Here we suppose `$\upsilon_0$` and `$\omega_0$` are both gived.
+The baseball would get an initial velocity in the assumption that we throw it away, at which it's forced to spin backwards at the same time. Then its rotation brings an initial palstance  ![](http://latex.codecogs.com/gif.latex?\omega). Here we suppose ![](http://latex.codecogs.com/gif.latex?\upsilon_0) and ![](http://latex.codecogs.com/gif.latex?\omega_0) are both gived.
 ## The Main Body
 - **Building numerical model**
     
@@ -10,11 +10,9 @@ The baseball would get an initial velocity in the assumption that we throw it aw
     - Air-resistence
     
         Generally the air-resistence in the movement  of objects satisfys the equation below: 
-        ```math
-        F_{drag}=-B_{2}\upsilon^2
         
-        \frac{1}{2}
-        ``` 
+        ![](http://latex.codecogs.com/gif.latex?F_{drag}=-B_{2}\upsilon^2)
+        
         in which, `$B_2$` is drag conefficient. Meanwhile the drag conefficient of baseball fits well the following emprical formula:
         ```math
         \frac{B_2}{m}=0.0039+\frac{0.0058}{1+e^\frac{\upsilon-\upsilon_d}{\Delta}}
