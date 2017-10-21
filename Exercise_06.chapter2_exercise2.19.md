@@ -60,13 +60,13 @@ The baseball would get an initial velocity in the assumption that we throw it aw
 ## Analysis
 Suppose the velocity of baseball is high, we fill in the initial conditions: ![](http://latex.codecogs.com/gif.latex?\omega_0=2000rpm), ![](http://latex.codecogs.com/gif.latex?\upsilon_0=49m/s), the elevetion is ![](http://latex.codecogs.com/gif.latex?0^\circ), total time is 10s, and time step dt=0.01s. ultimately, the result output is the below:
 
-![image](http://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise2.19z-x.png)
+![image]https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise2.19z-x.png()
 
 in which, the dotted line express theoretical parabola and the solid line presents the actual parabola of baseball. So we can see, out of the over weight of palstance, Magnus force brings out distinct effect, which causes the posterior curve turns up so obviously that it spreads off the actual parabola more and more excessively.
 
 If we extend the total time to 20s, it's astonishing to find the baseball even is possible to move up !
 
-![image](http://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise2.19z-x02.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/problem2.19_x-z02.png)
 ## Conclusion
 When the palstance of baseball is high, Magnus force occurs a distinct effect to its movement, which causes departure of parabola.
 ## Acknowledgement
