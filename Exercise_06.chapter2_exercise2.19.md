@@ -58,7 +58,7 @@ The baseball would get an initial velocity in the assumption that we throw it aw
         actually, considering the initial conditons, it's easy to find that ![](http://latex.codecogs.com/gif.latex?\upsilon_y=0).
     - [The Source Code](http://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/source_code_exercise2.19).
 ## Analysis
-Suppose the velocity of baseball is high, we fill in the initial conditions: ![](http://latex.codecogs.com/gif.latex?\omega_0=2000rpm![](http://latex.codecogs.com/gif.latex?, ![](http://latex.codecogs.com/gif.latex?\upsilon_0=49m/s), the elevetion is ![](http://latex.codecogs.com/gif.latex?0^\circ), total time is 10s, and time step dt=0.01s. ultimately, the result output is the below:
+Suppose the velocity of baseball is high, we fill in the initial conditions: ![](http://latex.codecogs.com/gif.latex?\omega_0=2000rpm), ![](http://latex.codecogs.com/gif.latex?\upsilon_0=49m/s), the elevetion is ![](http://latex.codecogs.com/gif.latex?0^\circ), total time is 10s, and time step dt=0.01s. ultimately, the result output is the below:
 
 ![image](http://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise2.19z-x.png)
 
