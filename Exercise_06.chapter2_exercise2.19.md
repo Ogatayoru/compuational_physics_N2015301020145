@@ -58,7 +58,7 @@ The baseball would get an initial velocity in the assumption that we throw it aw
         actually, considering the initial conditons, it's easy to find that ![](http://latex.codecogs.com/gif.latex?\upsilon_y=0).
     - [The Source Code](http://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/source_code_exercise2.19).
 ## Analysis
-Suppose the velocity of baseball is high, we fill in the initial conditions: ![](http://latex.codecogs.com/gif.latex?\omega_0=2000rpm), ![](http://latex.codecogs.com/gif.latex?\upsilon_0=49m/s), the elevetion is ![](http://latex.codecogs.com/gif.latex?0^\circ), total time is 10s, and time step dt=0.01s. ultimately, the result output is the below:
+Suppose the velocity of baseball is high, we fill in the initial conditions: ![](http://latex.codecogs.com/gif.latex?\omega_0=2000rpm), ![](http://latex.codecogs.com/gif.latex?\upsilon_0=49m/s), the elevetion is ![](http://latex.codecogs.com/gif.latex?0^\circ), total time is 10s, and time step dt=0.01s. Ultimately, the result output is the below:
 
 ![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise2.19z-x.png)
 
@@ -68,6 +68,6 @@ If we extend the total time to 20s, it's astonishing to find the baseball even i
 
 ![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/problem2.19_x-z02.png)
 ## Conclusion
-When the palstance of baseball is high, Magnus force occurs a distinct effect to its movement, which causes departure of parabola.
+When the palstance of baseball is fast, Magnus force occurs a distinct effect to its movement, which causes departure of parabola.
 ## Acknowledgement
 Thanks for the source code from the seniors.
