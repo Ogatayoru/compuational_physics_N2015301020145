@@ -1,7 +1,7 @@
 ## Abstract
 By means of numerical model, we can trace the baseball limited by some specific initial conditions. Here we take the baseball for instance, yet the actual result is not just confined to the baseball.
 ## Background
-The baseball would get an initial velocity in the assumption that we throw it away, at which it's forced to spin backwards at the same time. Then its rotation brings an initial palstance  ![](http://latex.codecogs.com/gif.latex?\omega). Here we suppose ![](http://latex.codecogs.com/gif.latex?\upsilon_0) and ![](http://latex.codecogs.com/gif.latex?\omega_0) are both gived.
+The baseball would get an initial velocity in the assumption that we throw it away, at which it's forced to spin backwards at the same time. Then its rotation brings  an initial palstance  ![](http://latex.codecogs.com/gif.latex?\omega). Here we suppose ![](http://latex.codecogs.com/gif.latex?\upsilon_0) and ![](http://latex.codecogs.com/gif.latex?\omega_0) are both gived.
 ## The Main Body
 - **Building numerical model**
     
