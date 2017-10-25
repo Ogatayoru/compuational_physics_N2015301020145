@@ -14,20 +14,11 @@ Meanwhile, the palstance ![](http://latex.codecogs.com/gif.latex?\omega) satisfi
 
 Combine the two euations above:
 
-![](http://latex.codecogs.com/gif.latex?\begin{cases}
-\frac{d\omega}{dt}=-\frac{g}{l}\sin{\theta}\\
-\\
-\frac{d\theta}{dt}=\omega
-\end{cases}
-)
+![](http://latex.codecogs.com/gif.latex?\begin{cases}\frac{d\omega}{dt}=-\frac{g}{l}\sin{\theta}\\\\\frac{d\theta}{dt}=\omega\end{cases})
+
 Using Euler-Cromer method to write program,we must convert it into recursive formula:
 
-![](http://latex.codecogs.com/gif.latex?\begin{cases}
-\omega_{i+1}=\omega_{i}-\frac{g}{l}\sin{\theta_i}\Delta{t}\\
-\theta_{i+1}=\theta_{i}+\omega_{i}\Delta{t}\\
-t_{i+1}=t_{i}+\Delta{t}
-\end{cases}
-)
+
 By giving some initial parameters and conditions, we can figure out a series of ![](http://latex.codecogs.com/gif.latex?\theta) and ![](http://latex.codecogs.com/gif.latex?\omega) at different time in use of the recursive formula. To link the points, we can draw the graph describing ![](http://latex.codecogs.com/gif.latex?\theta)-t、![](http://latex.codecogs.com/gif.latex?\omega)-t and ![](http://latex.codecogs.com/gif.latex?\omega)-![](http://latex.codecogs.com/gif.latex?\theta).
 
 ![Here is the source code.]()
