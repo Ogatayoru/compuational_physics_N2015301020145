@@ -22,7 +22,7 @@ Using Euler-Cromer method to write program,we must convert it into recursive for
 
 By giving some initial parameters and conditions, we can figure out a series of ![](http://latex.codecogs.com/gif.latex?\theta) and ![](http://latex.codecogs.com/gif.latex?\omega) at different time in use of the recursive formula. To link the points, we can draw the graph describing ![](http://latex.codecogs.com/gif.latex?\theta)-t、![](http://latex.codecogs.com/gif.latex?\omega)-t and ![](http://latex.codecogs.com/gif.latex?\omega)-![](http://latex.codecogs.com/gif.latex?\theta).
 
-Here is [the source code]（https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise_07_code).
+Here is [the source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise_07_code).
 
 ## Analysis
 First, we give the length l=1.0m, the total time t=10s and time step dt=0.04s. Considering that the maximum amplitude of sigle pendulum depends on the initial angle where we release the single pendulum, naturally we can affect the maximum amplitude through altering the release angle. Here we temporarily set the initial angel ![](http://latex.codecogs.com/gif.latex?\theta_0)=0.2rad, and then we get the following ![](http://latex.codecogs.com/gif.latex?\theta)-t graph:
