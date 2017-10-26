@@ -27,9 +27,10 @@ Here is [the source code](https://github.com/Ogatayoru/compuational_physics_N201
 ## Analysis
 First, we give the length l=1.0m, the total time t=10s and time step dt=0.04s. Considering that the maximum amplitude of sigle pendulum depends on the initial angle where we release the single pendulum, naturally we can affect the maximum amplitude through altering the release angle. Here we temporarily set the initial angel ![](http://latex.codecogs.com/gif.latex?\theta_0)=0.2rad, and then we get the following ![](http://latex.codecogs.com/gif.latex?\theta)-t graph:
 
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_1.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_01.png)
 
 Here gives [the original data](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_07_01).
+
 It fits well linear approximation result out of the small range where we set the initial angel, which allows the approximation relation ![](http://latex.codecogs.com/gif.latex?\sin{\theta}\approx\theta) to make sense quite well.
 
 Then we rase the initial angel to 0.5rad:
