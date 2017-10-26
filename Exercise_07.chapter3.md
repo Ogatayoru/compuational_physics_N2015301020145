@@ -25,21 +25,33 @@ By giving some initial parameters and conditions, we can figure out a series of 
 Here is [the source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise_07_code).
 
 ## Analysis
-First, we give the length l=2.0m, the total time t=10s and time step dt=0.02s. Considering that the maximum amplitude of sigle pendulum depends on the initial angle where we release the single pendulum, naturally we can affect the maximum amplitude through altering the release angle. Here we temporarily set the initial angel ![](http://latex.codecogs.com/gif.latex?\theta_0)=0.1rad, and then we get the following ![](http://latex.codecogs.com/gif.latex?\theta)-t graph:
+First, we give the length l=1.5m, the total time t=10s and time step dt=0.02s. Considering that the maximum amplitude of sigle pendulum depends on the initial angle where we release the single pendulum, naturally we can affect the maximum amplitude through altering the release angle. Here we temporarily set the initial angel ![](http://latex.codecogs.com/gif.latex?\theta_0)=0.1rad, and then we get the following ![](http://latex.codecogs.com/gif.latex?\theta)-t graph:
 
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_01.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_53.png)
 
-Here gives [the original data](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_07_01).
+Here gives [the original data](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_53).
 
 It fits well linear approximation result out of the small range where we set the initial angel, which allows the approximation relation ![](http://latex.codecogs.com/gif.latex?\sin{\theta}\approx\theta) to make sense quite well.
 
 Then we rase the initial angel to 0.5rad:
 
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_2.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_54.png)
  
-It's easy to find the dynamic cycle of single pendulum changes. The result is distinguished from the simple harmonic approximation, where the dynamic cycle ( ![](http://latex.codecogs.com/gif.latex?T=\sqrt\frac{l}{g}) ) has nothing to do with the initial angel. Next, we rase the initial angel to 1.0rad:
+Here gives [the original data](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_54).
 
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_3.png)
+It's easy to find the dynamic cycle of single pendulum changes. The result is distinguished from the simple harmonic approximation, where the dynamic cycle ( ![](http://latex.codecogs.com/gif.latex?T=\sqrt\frac{l}{g}) ) has nothing to do with the initial angel. Next, we rase the initial angel to 1.0rad, 2.0rad and 3.0rad:
+
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_50.png)
+
+Here gives [the original data_1.0rad](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_50).
+
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_51.png)
+
+Here gives [the original data_2.0rad](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_51).
+
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_52.png)
+
+Here gives [the original data_3.0rad](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_52).
 
 ## Conclusion
 Comparing the three graph above, we have to give such a conclusion that the cycle of single pendulum rases along with the increase of the initial angle we set. While, we ignore the damping and driving force ao that the movement of single pendulum is still seen as a periodic motion.
