@@ -29,6 +29,7 @@ First, we give the length l=1.0m, the total time t=10s and time step dt=0.04s. C
 
 ![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/pendulum_1.png)
 
+Here gives [the original data](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/data_07_01).
 It fits well linear approximation result out of the small range where we set the initial angel, which allows the approximation relation ![](http://latex.codecogs.com/gif.latex?\sin{\theta}\approx\theta) to make sense quite well.
 
 Then we rase the initial angel to 0.5rad:
