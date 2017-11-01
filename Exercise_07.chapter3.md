@@ -55,5 +55,5 @@ Here gives [the original data_3.0rad](https://github.com/Ogatayoru/compuational_
 
 ## Conclusion
 Comparing the five graph above, we have to give such a conclusion that the cycle of single pendulum rases along with the increase of the initial angle we set. While, we ignore the damping and driving force so that the movement of single pendulum is still seen as a periodic motion but not a simple harmonic oscilation any more.
-## Ackkownledgement
+## Ackownledgement
 Thanks for the souce code from the seniors.
