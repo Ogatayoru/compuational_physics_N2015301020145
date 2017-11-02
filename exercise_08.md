@@ -20,7 +20,7 @@ among which,
 ![](http://latex.codecogs.com/gif.latex?\begin{cases}f_{x}(x(t),y(t),z(t),t)=\frac{dx}{dt}=\sigma(y-x)\\\\f_{y}(x(t),y(t),z(t),t)=\frac{dy}{dt}=-xz+rx-y\\\\f_{z}(x(t),y(t),z(t),t)=\frac{dz}{dt}=xy-bz\end{cases})
 
 Then we can draw the graph with the scatters.
-Here is the source code.
+Here is [the source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/code_08_01).
 ## Analysis and Conculsion
 #### step 1
 put the initial values: ![](http://latex.codecogs.com/gif.latex?x=1), ![](http://latex.codecogs.com/gif.latex?y=0), ![](http://latex.codecogs.com/gif.latex?z=0), time step ![](http://latex.codecogs.com/gif.latex?dt=0.0001), and the total time ![](http://latex.codecogs.com/gif.latex?t=50). First, we give ![](http://latex.codecogs.com/gif.latex?r=5), and then the graph output is the below:
@@ -45,7 +45,7 @@ Glancing over the two graphes above, we still are in a position to draw the conc
 
 While, it's astonishing to witness that ![](http://latex.codecogs.com/gif.latex?z)'s development departures dramatically the regular pattern previously. Specifically, the value of ![](http://latex.codecogs.com/gif.latex?z) remains constant oscillation as time goes on without the tendency towards just a constant but could be considered as oscillation around a central value even if its amplitude seems unpredictable.
 #### step 2
-If we rewrite the programme, in which the graph output describes the phase space ![](http://latex.codecogs.com/gif.latex?x-z). As the above, we firstly give ![](http://latex.codecogs.com/gif.latex?r=5) :
+If we rewrite [the code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/code_08_02), in which the graph output describes the phase space ![](http://latex.codecogs.com/gif.latex?x-z). As the above, we firstly give ![](http://latex.codecogs.com/gif.latex?r=5) :
 
 ![image](http://note.youdao.com/favicon.ico)
 
