@@ -1,7 +1,7 @@
 ## Background
 The atmospheric scientist E.N.Lorentz put forward the Lorentz Model on the modern chaotic field in 1963. 
 ## Abastract
-We can study the model by programme, in which we set two of the three parameters in the equations `$\sigma$` and `$b$` as constants. Then we will research how the parameter `$r$` plays its role.
+We can study the model by programme, in which we set two of the three parameters in the equations ![](http://latex.codecogs.com/gif.latex?\sigma) and ![](http://latex.codecogs.com/gif.latex?b) as constants. Then we will research how the parameter ![](http://latex.codecogs.com/gif.latex?r) plays its role.
 ## The main body
 Lorentz simplified the Navier-Stokes equations and figured out the three equations below:
 ```math
@@ -82,6 +82,6 @@ From the above, the rule begins to be inadequate and the dot curve withdraws to 
 
 ![image](http://note.youdao.com/favicon.ico)
 
-It's clear that the chaos phenomenon occurs, in which the curve will not ever withdraw to a dot and its rule becomes more unpredictable. Divided by the line `$x=0$`, the whirlpool curves on both sides are asymmetrical with the left more concentrated
+It's clear that the chaos phenomenon occurs, in which the curve will not ever withdraw to a dot and its rule becomes more unpredictable. Divided by the line `$x=0$`, the whirlpool curves on both sides are asymmetrical with the left more concentrated.
 ## Acknowledgement
 Thanks for the source code from the seniors.
