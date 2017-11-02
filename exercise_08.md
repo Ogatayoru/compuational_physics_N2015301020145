@@ -5,38 +5,25 @@ We can study the model by programme, in which we set two of the three parameters
 ## The main body
 Lorentz simplified the Navier-Stokes equations and figured out the three equations below:
 
-![](http://latex.codecogs.com/gif.latex?\begin{cases}\frac{dx}{dt}=\sigma(y-x)\\\\\frac{dy}{dt}=-xz+rx-y\\\\\frac{dz}{dt}=xy-bz\end{cases})
+![](http://latex.codecogs.com/gif.latex?\begin{cases}\frac{dx}{dt}=\sigma(y-x)\\\frac{dy}{dt}=-xz+rx-y\\\frac{dz}{dt}=xy-bz\end{cases})
 
-Here we still follow Lorentz's work, in which ![](http://latex.codecogs.com/gif.latex?\sigma=10), `$b$`=8/3. Then we start to deal with the three equations by the Runge-Kutta method. We define time `$t$` is at random, and use Runge-Kutta method as the the following:
-```math
-\begin{cases}
-x(t+\Delta{t})=x(t)+f_{x}(x',y',z',t')\Delta{t}\\
-y(t+\Delta{t})=y(t)+f_{y}(x',y',z',t')\Delta{t}\\
-z(t+\Delta{t})=z(t)+f_{z}(x',y',z',t')\Delta{t}
-\end{cases}
-```
+Here we still follow Lorentz's work, in which ![](http://latex.codecogs.com/gif.latex?\sigma=10), ![](http://latex.codecogs.com/gif.latex?b=8/3). Then we start to deal with the three equations by the Runge-Kutta method. We define time ![](http://latex.codecogs.com/gif.latex?t) is at random, and use Runge-Kutta method as the the following:
+
+![](http://latex.codecogs.com/gif.latex?\begin{cases}x(t+\Delta{t})=x(t)+f_{x}(x',y',z',t')\Delta{t}\\y(t+\Delta{t})=y(t)+f_{y}(x',y',z',t')\Delta{t}\\z(t+\Delta{t})=z(t)+f_{z}(x',y',z',t')\Delta{t}\end{cases})
+
 in which,
-```math
-\begin{cases}
-x'=x(t)+\frac{1}{2}f_{X}(x(t),y(t),z(t),t)\Delta{t}\\
-y'=y(t)+\frac{1}{2}f_{y}(x(t),y(t),z(t),t)\Delta{t}\\
-z'=z(t)+\frac{1}{2}f_{z}(x(t),y(t),z(t),t)\Delta{t}\\
-t'=t+\frac{1}{2}\Delta{t}
-\end{cases}
-```
+
+![](http://latex.codecogs.com/gif.latex?\begin{cases}x'=x(t)+\frac{1}{2}f_{X}(x(t),y(t),z(t),t)\Delta{t}\\y'=y(t)+\frac{1}{2}f_{y}(x(t),y(t),z(t),t)\Delta{t}\\z'=z(t)+\frac{1}{2}f_{z}(x(t),y(t),z(t),t)\Delta{t}\\t'=t+\frac{1}{2}\Delta{t}\end{cases})
+
 among which,
-```math
-\begin{cases}
-f_{x}(x(t),y(t),z(t),t)=\frac{dx}{dt}=\sigma(y-x)\\
-f_{y}(x(t),y(t),z(t),t)=\frac{dy}{dt}=-xz+rx-y\\
-f_{z}(x(t),y(t),z(t),t)=\frac{dz}{dt}=xy-bz
-\end{cases}
-```
+
+![](http://latex.codecogs.com/gif.latex?\begin{cases}f_{x}(x(t),y(t),z(t),t)=\frac{dx}{dt}=\sigma(y-x)\\f_{y}(x(t),y(t),z(t),t)=\frac{dy}{dt}=-xz+rx-y\\f_{z}(x(t),y(t),z(t),t)=\frac{dz}{dt}=xy-bz\end{cases})
+
 Then we can draw the graph with the scatters.
 Here is the source code.
 ## Analysis and Conculsion
 #### step 1
-put the initial values: `$x=1$`, `$y=0$`, `$z=0$`, time step `$dt=0.0001$`, and the total time `$t=50$`. First, we give `$r=5$`, and then the graph output is the below:
+put the initial values: ![](http://latex.codecogs.com/gif.latex?x=1), `$y=0$`, `$z=0$`, time step `$dt=0.0001$`, and the total time `$t=50$`. First, we give `$r=5$`, and then the graph output is the below:
  
 ![image](http://note.youdao.com/favicon.ico)
 
