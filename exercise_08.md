@@ -13,11 +13,11 @@ Here we still follow Lorentz's work, in which ![](http://latex.codecogs.com/gif.
 
 in which,
 
-![](http://latex.codecogs.com/gif.latex?\begin{cases}x'=x(t)+\frac{1}{2}f_{X}(x(t),y(t),z(t),t)\Delta{t}\\y'=y(t)+\frac{1}{2}f_{y}(x(t),y(t),z(t),t)\Delta{t}\\z'=z(t)+\frac{1}{2}f_{z}(x(t),y(t),z(t),t)\Delta{t}\\t'=t+\frac{1}{2}\Delta{t}\end{cases})
+![](http://latex.codecogs.com/gif.latex?\begin{cases}x'=x(t)+\frac{1}{2}f_{x}(x(t),y(t),z(t),t)\Delta{t}\\\\y'=y(t)+\frac{1}{2}f_{y}(x(t),y(t),z(t),t)\Delta{t}\\\\z'=z(t)+\frac{1}{2}f_{z}(x(t),y(t),z(t),t)\Delta{t}\\\\t'=t+\frac{1}{2}\Delta{t}\end{cases})
 
 among which,
 
-![](http://latex.codecogs.com/gif.latex?\begin{cases}f_{x}(x(t),y(t),z(t),t)=\frac{dx}{dt}=\sigma(y-x)\\f_{y}(x(t),y(t),z(t),t)=\frac{dy}{dt}=-xz+rx-y\\f_{z}(x(t),y(t),z(t),t)=\frac{dz}{dt}=xy-bz\end{cases})
+![](http://latex.codecogs.com/gif.latex?\begin{cases}f_{x}(x(t),y(t),z(t),t)=\frac{dx}{dt}=\sigma(y-x)\\\\f_{y}(x(t),y(t),z(t),t)=\frac{dy}{dt}=-xz+rx-y\\\\f_{z}(x(t),y(t),z(t),t)=\frac{dz}{dt}=xy-bz\end{cases})
 
 Then we can draw the graph with the scatters.
 Here is the source code.
