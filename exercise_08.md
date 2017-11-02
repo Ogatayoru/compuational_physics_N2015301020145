@@ -11,7 +11,7 @@ Lorentz simplified the Navier-Stokes equations and figured out the three equatio
 \frac{dz}{dt}=xy-bz
 \end{cases}
 ```
-Here we still follow Lorentz's work, in which `$\sigma$`=10, `$b$`=8/3. Then we start to deal with the three equations by the Runge-Kutta method. We define time `$t$` is at random, and use Runge-Kutta method as the the following:
+Here we still follow Lorentz's work, in which ![](http://latex.codecogs.com/gif.latex?\sigma=10), `$b$`=8/3. Then we start to deal with the three equations by the Runge-Kutta method. We define time `$t$` is at random, and use Runge-Kutta method as the the following:
 ```math
 \begin{cases}
 x(t+\Delta{t})=x(t)+f_{x}(x',y',z',t')\Delta{t}\\
