@@ -23,48 +23,48 @@ Then we can draw the graph with the scatters.
 Here is the source code.
 ## Analysis and Conculsion
 #### step 1
-put the initial values: ![](http://latex.codecogs.com/gif.latex?x=1), `$y=0$`, `$z=0$`, time step `$dt=0.0001$`, and the total time `$t=50$`. First, we give `$r=5$`, and then the graph output is the below:
+put the initial values: ![](http://latex.codecogs.com/gif.latex?x=1), ![](http://latex.codecogs.com/gif.latex?y=0), ![](http://latex.codecogs.com/gif.latex?z=0), time step ![](http://latex.codecogs.com/gif.latex?dt=0.0001), and the total time ![](http://latex.codecogs.com/gif.latex?t=50). First, we give ![](http://latex.codecogs.com/gif.latex?r=5), and then the graph output is the below:
  
 ![image](http://note.youdao.com/favicon.ico)
 
-from the graph, it's easy to find that `$z$` gradually approachs a constant of nonzero along with the falling of amplitude during a short period of time. Then we give `$r=10$` :
+from the graph, it's easy to find that ![](http://latex.codecogs.com/gif.latex?z) gradually approachs a constant of nonzero along with the falling of amplitude during a short period of time. Then we give ![](http://latex.codecogs.com/gif.latex?r=10) :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-Compared with `$r=5$`, it's actual to find `$z$` grows as the similiar rule, while such a approaching period of time inceases and stiil remains stable at a nonzero but lager terminal. Continually, we add `$r$`up to 15 :
+Compared with ![](http://latex.codecogs.com/gif.latex?r=5), it's actual to find ![](http://latex.codecogs.com/gif.latex?z) grows as the similiar rule, while such a approaching period of time inceases and stiil remains stable at a nonzero but lager terminal. Continually, we add ![](http://latex.codecogs.com/gif.latex?r) up to 15 :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-Still we increase `$r$` to 20 :
+Still we increase ![](http://latex.codecogs.com/gif.latex?r) to 20 :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-Glancing over the two graphes above, we still are in a position to draw the conclusion that those '`$z$`'s satisfy the common regular pattern all through. Yet, if we input `$r=25$` :
+Glancing over the two graphes above, we still are in a position to draw the conclusion that those '![](http://latex.codecogs.com/gif.latex?z)'s satisfy the common regular pattern all through. Yet, if we input ![](http://latex.codecogs.com/gif.latex?r=25) :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-While, it's astonishing to witness that `$z$`'s development departures dramatically the regular pattern previously. Specifically, the value of `$z$` remains constant oscillation as time goes on without the tendency towards just a constant but could be considered as oscillation around a central value even if its amplitude seems unpredictable.
+While, it's astonishing to witness that ![](http://latex.codecogs.com/gif.latex?z)'s development departures dramatically the regular pattern previously. Specifically, the value of ![](http://latex.codecogs.com/gif.latex?z) remains constant oscillation as time goes on without the tendency towards just a constant but could be considered as oscillation around a central value even if its amplitude seems unpredictable.
 #### step 2
-If we rewrite the programme, in which the graph output describes the phase space `$x-z$`. As the above, we firstly give `$r=5$` :
+If we rewrite the programme, in which the graph output describes the phase space ![](http://latex.codecogs.com/gif.latex?x-z). As the above, we firstly give ![](http://latex.codecogs.com/gif.latex?r=5) :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-We can see the curve continues to spiral inwards and eventually withdraws to a dot, that is `$z$`'s final constant. Then we add `$r$` up to 10 :
+We can see the curve continues to spiral inwards and eventually withdraws to a dot, that is ![](http://latex.codecogs.com/gif.latex?z)'s final constant. Then we add ![](http://latex.codecogs.com/gif.latex?r) up to 10 :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-It's exact to find that the rule keeps the same while the time curve retracts spreads and the terminal goes beyond the previous------the same conclusion we arrive at as step 1. Now we input `$r=15$` :
+It's exact to find that the rule keeps the same while the time curve retracts spreads and the terminal goes beyond the previous------the same conclusion we arrive at as step 1. Now we input ![](http://latex.codecogs.com/gif.latex?r=15) :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-Then `$r=20$` :
+Then ![](http://latex.codecogs.com/gif.latex?r=20) :
  
 ![image](http://note.youdao.com/favicon.ico)
 
-From the above, the rule begins to be inadequate and the dot curve withdraws to is not that distinct. Finally, we increase `$r$` to 25 :
+From the above, the rule begins to be inadequate and the dot curve withdraws to is not that distinct. Finally, we increase ![](http://latex.codecogs.com/gif.latex?r) to 25 :
 
 ![image](http://note.youdao.com/favicon.ico)
 
-It's clear that the chaos phenomenon occurs, in which the curve will not ever withdraw to a dot and its rule becomes more unpredictable. Divided by the line `$x=0$`, the whirlpool curves on both sides are asymmetrical with the left more concentrated.
+It's clear that the chaos phenomenon occurs, in which the curve will not ever withdraw to a dot and its rule becomes more unpredictable. Divided by the line ![](http://latex.codecogs.com/gif.latex?x=0), the whirlpool curves on both sides are asymmetrical with the left more concentrated.
 ## Acknowledgement
 Thanks for the source code from the seniors.
