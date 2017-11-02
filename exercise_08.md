@@ -4,13 +4,9 @@ The atmospheric scientist E.N.Lorentz put forward the Lorentz Model on the moder
 We can study the model by programme, in which we set two of the three parameters in the equations ![](http://latex.codecogs.com/gif.latex?\sigma) and ![](http://latex.codecogs.com/gif.latex?b) as constants. Then we will research how the parameter ![](http://latex.codecogs.com/gif.latex?r) plays its role.
 ## The main body
 Lorentz simplified the Navier-Stokes equations and figured out the three equations below:
-```math
-\begin{cases}
-\frac{dx}{dt}=\sigma(y-x)\\\\
-\frac{dy}{dt}=-xz+rx-y\\\\
-\frac{dz}{dt}=xy-bz
-\end{cases}
-```
+
+![](http://latex.codecogs.com/gif.latex?\begin{cases}\frac{dx}{dt}=\sigma(y-x)\\\\\frac{dy}{dt}=-xz+rx-y\\\\\frac{dz}{dt}=xy-bz\end{cases})
+
 Here we still follow Lorentz's work, in which ![](http://latex.codecogs.com/gif.latex?\sigma=10), `$b$`=8/3. Then we start to deal with the three equations by the Runge-Kutta method. We define time `$t$` is at random, and use Runge-Kutta method as the the following:
 ```math
 \begin{cases}
