@@ -7,7 +7,7 @@ Lorentz simplified the Navier-Stokes equations and figured out the three equatio
 
 ![](http://latex.codecogs.com/gif.latex?\begin{cases}\frac{dx}{dt}=\sigma(y-x)\\\\\frac{dy}{dt}=-xz+rx-y\\\\\frac{dz}{dt}=xy-bz\end{cases})
 
-Here we still follow Lorentz's work, in which ![](http://latex.codecogs.com/gif.latex?\sigma=10), ![](http://latex.codecogs.com/gif.latex?b=8/3). Then we start to deal with the three equations by the Runge-Kutta method. We define time ![](http://latex.codecogs.com/gif.latex?t) is at random, and use Runge-Kutta method as the the following:
+Here we still follow Lorentz's work, in which ![](http://latex.codecogs.com/gif.latex?\sigma=10),  ![](http://latex.codecogs.com/gif.latex?b=8/3) . Then we start to deal with the three equations by the Runge-Kutta method. We define time ![](http://latex.codecogs.com/gif.latex?t) is at random, and use Runge-Kutta method as the the following:
 
 ![](http://latex.codecogs.com/gif.latex?\begin{cases}x(t+\Delta{t})=x(t)+f_{x}(x',y',z',t')\Delta{t}\\\\y(t+\Delta{t})=y(t)+f_{y}(x',y',z',t')\Delta{t}\\\\z(t+\Delta{t})=z(t)+f_{z}(x',y',z',t')\Delta{t}\end{cases})
 
@@ -23,7 +23,7 @@ Then we can draw the graph with the scatters.
 Here is [the source code](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/code_08_01).
 ## Analysis and Conculsion
 #### step 1
-put the initial values: ![](http://latex.codecogs.com/gif.latex?x=1), ![](http://latex.codecogs.com/gif.latex?y=0), ![](http://latex.codecogs.com/gif.latex?z=0), time step ![](http://latex.codecogs.com/gif.latex?dt=0.0001), and the total time ![](http://latex.codecogs.com/gif.latex?t=50). First, we give ![](http://latex.codecogs.com/gif.latex?r=5), and then the graph output is the below:
+put the initial values: ![](http://latex.codecogs.com/gif.latex?x=1),  ![](http://latex.codecogs.com/gif.latex?y=0) , ![](http://latex.codecogs.com/gif.latex?z=0), time step ![](http://latex.codecogs.com/gif.latex?dt=0.0001), and the total time ![](http://latex.codecogs.com/gif.latex?t=50). First, we give ![](http://latex.codecogs.com/gif.latex?r=5), and then the graph output is the below:
  
 ![image](http://note.youdao.com/favicon.ico)
 
