@@ -15,7 +15,7 @@ class INVERSE(object):
         m: mass of central star
         dt, time : time step size and total time 
     '''
-    def __init__(self, _beta=2.05, _e=0., _m=4*(pi**2), _dt=0.001, _time=10):
+    def __init__(self, _beta=2.06, _e=0., _m=4*(pi**2), _dt=0.001, _time=10):
         self.m=_m
         self.e=_e
         self.x, self.y=[1.],[0.]
@@ -76,12 +76,12 @@ ax3.set_xlabel(r'$x$'+' (AU)',fontsize=18)
 ax3.set_ylabel(r'$y$'+' (AU)',fontsize=18)
 ax4.set_xlabel(r'Ellipticity',fontsize=18)
 ax4.set_ylabel(r'Precession rate '+r'$ degree/yr $',fontsize=18)
-ax1.set_title(r'$\beta=2.05$'+'  '+r'$e=0$',fontsize=18)
-ax2.set_title(r'$\beta=2.05$'+'  '+r'$e=0.15$',fontsize=18)
-ax3.set_title(r'$\beta=2.05$'+'  '+r'$e=0.45$',fontsize=18)
+ax1.set_title(r'$\beta=2.06$'+'  '+r'$e=0$',fontsize=18)
+ax2.set_title(r'$\beta=2.06$'+'  '+r'$e=0.25$',fontsize=18)
+ax3.set_title(r'$\beta=2.06$'+'  '+r'$e=0.40$',fontsize=18)
 ax4.set_title(r'Precession rate',fontsize=18)
 
-cmp=INVERSE(2.05,0)
+cmp=INVERSE(2.06,0)
 cmp.cal()
 cmp.plot_trajectory(ax1,'b')
 
@@ -90,21 +90,21 @@ for i in range(len(cmp.x)):
     print >> mfile,cmp.x[i],cmp.y[i]
 mfile.close()
 
-cmp=INVERSE(2.05,0.15)
+cmp=INVERSE(2.06,0.25)
 cmp.cal()
 cmp.plot_trajectory(ax2,'g')
 
-mfile=open(r'd:\ee015.txt','w')
+mfile=open(r'd:\ee025.txt','w')
 for i in range(len(cmp.x)):
     print >> mfile,cmp.x[i],cmp.y[i]
 mfile.close()
 
 
-cmp=INVERSE(2.05,0.45)
+cmp=INVERSE(2.06,0.40)
 cmp.cal()
 cmp.plot_trajectory(ax3,'y')
 
-mfile=open(r'd:\ee045.txt','w')
+mfile=open(r'd:\ee040.txt','w')
 for i in range(len(cmp.x)):
     print >> mfile,cmp.x[i],cmp.y[i]
 mfile.close()
@@ -113,7 +113,7 @@ mfile.close()
 e=[]
 rate=[]
 for i in linspace(0.1,0.6,20):
-    cmp= INVERSE(2.05,i)
+    cmp= INVERSE(2.06,i)
     cmp.cal()
     e.append(i)
     rate.append(180/pi*cmp.precession_rate())
