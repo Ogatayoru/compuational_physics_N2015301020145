@@ -33,7 +33,7 @@
 ![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/2.06.png)
 
 ![](http://latex.codecogs.com/gif.latex?\beta=1.94):
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/11.2.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/1.94.png)
 
 ## 结论
 
