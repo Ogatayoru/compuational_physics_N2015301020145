@@ -21,7 +21,7 @@
 #### 引力满足平方反比定律
 
 双星问题可以合理地化为单星问题，但星体数量更多时就不能化为简单的运动问题。因此有必要在静止坐标系下直接对双星运动求数值解。我们展示求解结果如下图所示，相应的程序见[源代码](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise11code1)。可以发现，双星运动轨迹高度依赖初始条件。
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/ch4.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/11.png)
 
 图中两星体质量满足![](http://latex.codecogs.com/gif.latex?\frac{M_{1}}{M_{2}}=2)，以不同的初始条件开始运动。左图(a)显示初始条件合适时，双星轨道为圆形，右图(b)显示初始条件偏离成圆条件时，双星轨道为椭圆。
 
