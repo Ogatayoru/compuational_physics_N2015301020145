@@ -23,7 +23,7 @@ LORENZ模型内流体运动显著依赖于驱动，当改变驱动的大小时�
 
 和前面的摆动问题一样，我们可以作出相空间 ![](http://latex.codecogs.com/gif.latex?x)、![](http://latex.codecogs.com/gif.latex?y)、![](http://latex.codecogs.com/gif.latex?z) 的图形，这样更能揭示混沌现象的内在规律性。另外，还可以作出相空间的截面，可以发现这样的截面是与初值无关的。也就是说，尽管混沌现象内禀复杂，其对初值极其敏感，但其相空间截面却与初值无关，是混沌运动的"不变量"，因而尽管不能预言混沌系统随时间演化规律，但其相图在一定程度上是可以预测的。这和之前是同一个程序。
 
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/ch3_lorenz_phase.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/10.png)
 
 取 ![](http://latex.codecogs.com/gif.latex?\sigma=10,b=8/3) 时Lorenz模型描述的流体运动，图(a)(b)(c)分别从三个不同方向观察混沌的相空间，而(d)则是取 ![](http://latex.codecogs.com/gif.latex?y=0) 的相空间的截面。
 
