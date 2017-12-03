@@ -30,7 +30,7 @@
 如果引力不是按牛顿引力理论预言的那样为平方反比，即![](http://latex.codecogs.com/gif.latex?f_{G}=\frac{GM_{S}M_{P}}{r^\beta})，其中 ![](http://latex.codecogs.com/gif.latex?\beta\neq2) 这样来讲一般行星轨道将产生进动。我们利用数值方法在不同初始条件下求解此时的行星运动，程序见[源代码](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise11code2)。计算结果如下图所示。
 
 ![](http://latex.codecogs.com/gif.latex?\beta=2.06):
-![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/ch3_non_square_precession.png)
+![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/2.06.png)
 
 ![](http://latex.codecogs.com/gif.latex?\beta=1.94):
 ![image](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/11.2.png)
