@@ -1,4 +1,6 @@
-
+'''
+program : electric capacitor
+this program give the potential plot of capacitor
 '''
 
 from numpy import *
