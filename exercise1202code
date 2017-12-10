@@ -1,4 +1,6 @@
 '''
+program : electric field
+'''
 from numpy import *
 import mpl_toolkits.mplot3d
 import matplotlib.pyplot as plt
