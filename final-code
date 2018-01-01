@@ -1,4 +1,9 @@
 '''
+Program : Ising first order
+        this program solves the Ising model
+        it also gives the relation of magnetization vs. magnetic field 
+        it can be used to show the hysteresis
+'''
 import matplotlib.pylab as plt
 from numpy import *
 '''
