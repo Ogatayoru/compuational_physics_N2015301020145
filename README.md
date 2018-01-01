@@ -12,3 +12,4 @@
 - [x] [Exercise_11:Chapter 4 ](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise11.md)
 - [x] [Exercise_12:Chapter 5 ](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise12.md)
 - [x] [Exercise_13:Chapter 6 ](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/exercise13.md)
+- [x] [Exercise_14：期末作业](https://github.com/Ogatayoru/compuational_physics_N2015301020145/blob/master/%E4%BA%8C%E7%BB%B4%20Ising%20%E6%A8%A1%E5%9E%8B%E7%9A%84%20Monte%20Carlo%20%E6%A8%A1%E6%8B%9F.pdf)
